@@ -1,0 +1,44 @@
+                                                                                        PDF Report
+
+
+Titanic Dataset - Exploratory Data Analysis (EDA)
+1. Introduction
+The Titanic dataset provides information on the fate of passengers aboard the Titanic, summarizing data like age, fare, class, gender, and survival status.
+
+2. Dataset Overview
+Rows: 891
+
+Columns: 12
+
+Missing Values: Age (177), Cabin (687), Embarked (2)
+
+3. Univariate Analysis
+Most passengers were aged between 20-40 years.
+
+Majority traveled in 3rd class.
+
+Higher number of male passengers compared to females.
+
+Most passengers embarked from port 'S' (Southampton).
+
+4. Bivariate Analysis
+Females had higher survival rates.
+
+First-class passengers had higher survival rates than second and third class.
+
+Higher fares linked to higher survival chances.
+
+5. Multivariate Analysis
+Heatmap showed a strong negative correlation between Pclass and Fare.
+
+Slight negative correlation between Age and Survival.
+
+6. Key Insights
+Females, 1st-class passengers, and those who paid higher fares had better survival chances.
+
+Missing values in 'Cabin' should be handled carefully.
+
+7. Conclusion
+EDA helped uncover meaningful patterns.
+
+Suggested that gender, fare, and class play significant roles in survival.
